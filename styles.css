@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Pastel pink background */
+    color: #1a237e; /* Deep blue text */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #f48fb1; /* Light pink for the title */
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #1565c0; /* Light pastel blue for text */
+}
+
+.image {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ba68c8; /* Soft purple */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #9c27b0;
+}
+
+audio {
+    display: none;
+}
